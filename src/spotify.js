@@ -1,7 +1,7 @@
 
 export const authEndPoint = 
 "https://accounts.spotify.com/authorize";
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://my-spotify-clone-app-ten.vercel.app/callback';
 const clientId ='93c2b58480ce4c1eacd8e424eb7fb2d8';
 const scopes = [
     "user-read-currently-playing",
